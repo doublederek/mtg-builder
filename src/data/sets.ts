@@ -1,0 +1,213 @@
+export interface MtgSet {
+  code: string
+  name: string
+  year: number
+}
+
+export const MTG_SETS: MtgSet[] = [
+  // 1993
+  { code: 'LEA', name: 'Limited Edition Alpha', year: 1993 },
+  { code: 'LEB', name: 'Limited Edition Beta', year: 1993 },
+  { code: '2ED', name: 'Unlimited Edition', year: 1993 },
+  { code: 'ARN', name: 'Arabian Nights', year: 1993 },
+  // 1994
+  { code: 'ATQ', name: 'Antiquities', year: 1994 },
+  { code: '3ED', name: 'Revised Edition', year: 1994 },
+  { code: 'LEG', name: 'Legends', year: 1994 },
+  { code: 'DRK', name: 'The Dark', year: 1994 },
+  { code: 'FEM', name: 'Fallen Empires', year: 1994 },
+  // 1995
+  { code: '4ED', name: 'Fourth Edition', year: 1995 },
+  { code: 'ICE', name: 'Ice Age', year: 1995 },
+  { code: 'CHR', name: 'Chronicles', year: 1995 },
+  { code: 'HML', name: 'Homelands', year: 1995 },
+  // 1996
+  { code: 'ALL', name: 'Alliances', year: 1996 },
+  { code: 'MIR', name: 'Mirage', year: 1996 },
+  // 1997
+  { code: '5ED', name: 'Fifth Edition', year: 1997 },
+  { code: 'VIS', name: 'Visions', year: 1997 },
+  { code: 'WTH', name: 'Weatherlight', year: 1997 },
+  { code: 'POR', name: 'Portal', year: 1997 },
+  { code: 'TMP', name: 'Tempest', year: 1997 },
+  // 1998
+  { code: 'STH', name: 'Stronghold', year: 1998 },
+  { code: 'EXO', name: 'Exodus', year: 1998 },
+  { code: 'UGL', name: 'Unglued', year: 1998 },
+  { code: 'PO2', name: 'Portal Second Age', year: 1998 },
+  { code: 'USG', name: "Urza's Saga", year: 1998 },
+  // 1999
+  { code: 'ULG', name: "Urza's Legacy", year: 1999 },
+  { code: '6ED', name: 'Classic Sixth Edition', year: 1999 },
+  { code: 'UDS', name: "Urza's Destiny", year: 1999 },
+  { code: 'PTK', name: 'Portal Three Kingdoms', year: 1999 },
+  { code: 'S99', name: 'Starter 1999', year: 1999 },
+  { code: 'MMQ', name: 'Mercadian Masques', year: 1999 },
+  // 2000
+  { code: 'NEM', name: 'Nemesis', year: 2000 },
+  { code: 'PCY', name: 'Prophecy', year: 2000 },
+  { code: 'S00', name: 'Starter 2000', year: 2000 },
+  { code: 'INV', name: 'Invasion', year: 2000 },
+  // 2001
+  { code: '7ED', name: 'Seventh Edition', year: 2001 },
+  { code: 'PLS', name: 'Planeshift', year: 2001 },
+  { code: 'APC', name: 'Apocalypse', year: 2001 },
+  { code: 'ODY', name: 'Odyssey', year: 2001 },
+  // 2002
+  { code: 'TOR', name: 'Torment', year: 2002 },
+  { code: 'JUD', name: 'Judgment', year: 2002 },
+  { code: 'ONS', name: 'Onslaught', year: 2002 },
+  // 2003
+  { code: 'LGN', name: 'Legions', year: 2003 },
+  { code: 'SCG', name: 'Scourge', year: 2003 },
+  { code: 'MRD', name: 'Mirrodin', year: 2003 },
+  { code: '8ED', name: 'Eighth Edition', year: 2003 },
+  // 2004
+  { code: 'UNH', name: 'Unhinged', year: 2004 },
+  { code: 'DST', name: 'Darksteel', year: 2004 },
+  { code: '5DN', name: 'Fifth Dawn', year: 2004 },
+  { code: 'CHK', name: 'Champions of Kamigawa', year: 2004 },
+  // 2005
+  { code: 'BOK', name: 'Betrayers of Kamigawa', year: 2005 },
+  { code: 'SOK', name: 'Saviors of Kamigawa', year: 2005 },
+  { code: '9ED', name: 'Ninth Edition', year: 2005 },
+  { code: 'RAV', name: 'Ravnica: City of Guilds', year: 2005 },
+  // 2006
+  { code: 'GPT', name: 'Guildpact', year: 2006 },
+  { code: 'DIS', name: 'Dissension', year: 2006 },
+  { code: 'CSP', name: 'Coldsnap', year: 2006 },
+  { code: 'TSP', name: 'Time Spiral', year: 2006 },
+  // 2007
+  { code: 'PLC', name: 'Planar Chaos', year: 2007 },
+  { code: 'FUT', name: 'Future Sight', year: 2007 },
+  { code: '10E', name: 'Tenth Edition', year: 2007 },
+  { code: 'LRW', name: 'Lorwyn', year: 2007 },
+  // 2008
+  { code: 'MOR', name: 'Morningtide', year: 2008 },
+  { code: 'SHM', name: 'Shadowmoor', year: 2008 },
+  { code: 'EVE', name: 'Eventide', year: 2008 },
+  { code: 'ALA', name: 'Shards of Alara', year: 2008 },
+  // 2009
+  { code: 'CON', name: 'Conflux', year: 2009 },
+  { code: 'ARB', name: 'Alara Reborn', year: 2009 },
+  { code: 'M10', name: 'Magic 2010', year: 2009 },
+  { code: 'ZEN', name: 'Zendikar', year: 2009 },
+  // 2010
+  { code: 'WWK', name: 'Worldwake', year: 2010 },
+  { code: 'ROE', name: 'Rise of the Eldrazi', year: 2010 },
+  { code: 'M11', name: 'Magic 2011', year: 2010 },
+  { code: 'SOM', name: 'Scars of Mirrodin', year: 2010 },
+  // 2011
+  { code: 'MBS', name: 'Mirrodin Besieged', year: 2011 },
+  { code: 'NPH', name: 'New Phyrexia', year: 2011 },
+  { code: 'CMD', name: 'Commander', year: 2011 },
+  { code: 'M12', name: 'Magic 2012', year: 2011 },
+  { code: 'ISD', name: 'Innistrad', year: 2011 },
+  // 2012
+  { code: 'DKA', name: 'Dark Ascension', year: 2012 },
+  { code: 'AVR', name: 'Avacyn Restored', year: 2012 },
+  { code: 'M13', name: 'Magic 2013', year: 2012 },
+  { code: 'RTR', name: 'Return to Ravnica', year: 2012 },
+  // 2013
+  { code: 'GTC', name: 'Gatecrash', year: 2013 },
+  { code: 'DGM', name: "Dragon's Maze", year: 2013 },
+  { code: 'MMA', name: 'Modern Masters', year: 2013 },
+  { code: 'M14', name: 'Magic 2014', year: 2013 },
+  { code: 'C13', name: 'Commander 2013', year: 2013 },
+  { code: 'THS', name: 'Theros', year: 2013 },
+  // 2014
+  { code: 'BNG', name: 'Born of the Gods', year: 2014 },
+  { code: 'JOU', name: 'Journey into Nyx', year: 2014 },
+  { code: 'CNS', name: 'Conspiracy', year: 2014 },
+  { code: 'M15', name: 'Magic 2015', year: 2014 },
+  { code: 'C14', name: 'Commander 2014', year: 2014 },
+  { code: 'KTK', name: 'Khans of Tarkir', year: 2014 },
+  // 2015
+  { code: 'FRF', name: 'Fate Reforged', year: 2015 },
+  { code: 'DTK', name: 'Dragons of Tarkir', year: 2015 },
+  { code: 'MM2', name: 'Modern Masters 2015', year: 2015 },
+  { code: 'ORI', name: 'Magic Origins', year: 2015 },
+  { code: 'C15', name: 'Commander 2015', year: 2015 },
+  { code: 'BFZ', name: 'Battle for Zendikar', year: 2015 },
+  // 2016
+  { code: 'OGW', name: 'Oath of the Gatewatch', year: 2016 },
+  { code: 'SOI', name: 'Shadows over Innistrad', year: 2016 },
+  { code: 'EMA', name: 'Eternal Masters', year: 2016 },
+  { code: 'EMN', name: 'Eldritch Moon', year: 2016 },
+  { code: 'CN2', name: 'Conspiracy: Take the Crown', year: 2016 },
+  { code: 'C16', name: 'Commander 2016', year: 2016 },
+  { code: 'KLD', name: 'Kaladesh', year: 2016 },
+  // 2017
+  { code: 'AER', name: 'Aether Revolt', year: 2017 },
+  { code: 'MM3', name: 'Modern Masters 2017', year: 2017 },
+  { code: 'AKH', name: 'Amonkhet', year: 2017 },
+  { code: 'HOU', name: 'Hour of Devastation', year: 2017 },
+  { code: 'C17', name: 'Commander 2017', year: 2017 },
+  { code: 'XLN', name: 'Ixalan', year: 2017 },
+  { code: 'IMA', name: 'Iconic Masters', year: 2017 },
+  { code: 'UST', name: 'Unstable', year: 2017 },
+  // 2018
+  { code: 'RIX', name: 'Rivals of Ixalan', year: 2018 },
+  { code: 'A25', name: 'Masters 25', year: 2018 },
+  { code: 'DOM', name: 'Dominaria', year: 2018 },
+  { code: 'BBD', name: 'Battlebond', year: 2018 },
+  { code: 'C18', name: 'Commander 2018', year: 2018 },
+  { code: 'M19', name: 'Core Set 2019', year: 2018 },
+  { code: 'GRN', name: 'Guilds of Ravnica', year: 2018 },
+  { code: 'UMA', name: 'Ultimate Masters', year: 2018 },
+  // 2019
+  { code: 'RNA', name: 'Ravnica Allegiance', year: 2019 },
+  { code: 'WAR', name: 'War of the Spark', year: 2019 },
+  { code: 'MH1', name: 'Modern Horizons', year: 2019 },
+  { code: 'M20', name: 'Core Set 2020', year: 2019 },
+  { code: 'C19', name: 'Commander 2019', year: 2019 },
+  { code: 'ELD', name: 'Throne of Eldraine', year: 2019 },
+  // 2020
+  { code: 'THB', name: 'Theros Beyond Death', year: 2020 },
+  { code: 'IKO', name: 'Ikoria: Lair of Behemoths', year: 2020 },
+  { code: 'C20', name: 'Commander 2020', year: 2020 },
+  { code: 'M21', name: 'Core Set 2021', year: 2020 },
+  { code: 'JMP', name: 'Jumpstart', year: 2020 },
+  { code: '2XM', name: 'Double Masters', year: 2020 },
+  { code: 'ZNR', name: 'Zendikar Rising', year: 2020 },
+  { code: 'CMR', name: 'Commander Legends', year: 2020 },
+  // 2021
+  { code: 'KHM', name: 'Kaldheim', year: 2021 },
+  { code: 'TSR', name: 'Time Spiral Remastered', year: 2021 },
+  { code: 'STX', name: 'Strixhaven: School of Mages', year: 2021 },
+  { code: 'MH2', name: 'Modern Horizons 2', year: 2021 },
+  { code: 'AFR', name: 'Adventures in the Forgotten Realms', year: 2021 },
+  { code: 'C21', name: 'Commander 2021', year: 2021 },
+  { code: 'MID', name: 'Innistrad: Midnight Hunt', year: 2021 },
+  { code: 'VOW', name: 'Innistrad: Crimson Vow', year: 2021 },
+  // 2022
+  { code: 'NEO', name: 'Kamigawa: Neon Dynasty', year: 2022 },
+  { code: 'SNC', name: 'Streets of New Capenna', year: 2022 },
+  { code: 'CLB', name: "Commander Legends: Battle for Baldur's Gate", year: 2022 },
+  { code: '2X2', name: 'Double Masters 2022', year: 2022 },
+  { code: 'DMU', name: 'Dominaria United', year: 2022 },
+  { code: 'UNF', name: 'Unfinity', year: 2022 },
+  { code: 'BRO', name: "The Brothers' War", year: 2022 },
+  { code: 'DMR', name: 'Dominaria Remastered', year: 2022 },
+  // 2023
+  { code: 'ONE', name: 'Phyrexia: All Will Be One', year: 2023 },
+  { code: 'MOM', name: 'March of the Machine', year: 2023 },
+  { code: 'MAT', name: 'March of the Machine: The Aftermath', year: 2023 },
+  { code: 'LTR', name: 'The Lord of the Rings: Tales of Middle-earth', year: 2023 },
+  { code: 'CMM', name: 'Commander Masters', year: 2023 },
+  { code: 'WOE', name: 'Wilds of Eldraine', year: 2023 },
+  { code: 'LCI', name: 'The Lost Caverns of Ixalan', year: 2023 },
+  // 2024
+  { code: 'RVR', name: 'Ravnica Remastered', year: 2024 },
+  { code: 'MKM', name: 'Murders at Karlov Manor', year: 2024 },
+  { code: 'OTJ', name: 'Outlaws of Thunder Junction', year: 2024 },
+  { code: 'MH3', name: 'Modern Horizons 3', year: 2024 },
+  { code: 'BLB', name: 'Bloomburrow', year: 2024 },
+  { code: 'DSK', name: 'Duskmourn: House of Horror', year: 2024 },
+  { code: 'FDN', name: 'Foundations', year: 2024 },
+  // 2025
+  { code: 'ACR', name: 'Aetherdrift', year: 2025 },
+  { code: 'TDM', name: 'Tarkir: Dragonstorm', year: 2025 },
+  { code: 'FIN', name: 'Final Fantasy', year: 2025 },
+  { code: 'EOE', name: 'Edge of Eternities', year: 2025 },
+]
